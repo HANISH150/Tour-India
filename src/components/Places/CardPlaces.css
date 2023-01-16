@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&family=Cuprum:wght@700&display=swap');
+
+.outer-card{
+background: rgba(255, 255, 255, 0.14);
+border-radius: 16px;
+box-shadow: 5rem rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(4px);
+-webkit-backdrop-filter: blur(4px);
+}
+.destination-tag{
+    color:white;
+    background-color: black;
+    font-size: small;
+    display: inline;
+}
+.outer-card:hover{
+    cursor: pointer;
+    box-shadow: 0 0px 18px 0 rgba(99,89,99,1);
+    transition: all .1s cubic-bezier(0.47, 0, 0.745, 0.715);
+}
+.place-text{
+    font-family: 'Cuprum', sans-serif;
+}

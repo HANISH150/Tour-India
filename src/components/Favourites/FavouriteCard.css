@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&family=Cuprum:wght@700&display=swap');
+.fav-card{
+background: rgba(255, 255, 255, 0.33);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(0px);
+-webkit-backdrop-filter: blur(0px);
+}
+.fav-card:hover{
+    cursor: pointer;
+    box-shadow: 0 0px 18px 0 rgba(99,89,99,1);
+    transition: all .2s cubic-bezier(0.47, 0, 0.745, 0.715);
+}
+.favourite-text{
+    font-family: 'Cuprum', sans-serif;
+}

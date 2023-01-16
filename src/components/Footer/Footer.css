@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&family=Cuprum:wght@700&family=Kaushan+Script&display=swap');
+
+.footer-body{
+    width: 100%;
+    background-color: black;
+    border: 1px solid black;
+    margin-bottom: 0px;
+}
+
+.quote{
+    font-family: 'Kaushan Script', cursive;
+}
